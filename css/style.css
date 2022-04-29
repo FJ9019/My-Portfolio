@@ -19,10 +19,6 @@ body {
 
 
 /* ==== Header Section ==== */
-.about-img {
-    margin-left: -100px;
-    right: -60px;
-}
 .btn {
     padding: 10px 25px;
     border-radius: 100px;
@@ -33,8 +29,15 @@ body {
 }
 .btn-blue {
     border: 2.4px solid #ffffff;
-    color: #ffffff;
+    color:#ffffff;
 }
 .hero-text {
     margin-top: 150px;
+}
+.typed-cursor {
+    font-size: 45px;
+    color: #ffffff;
+}
+.position-absolute {
+    font-weight: 700;
 }
