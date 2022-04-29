@@ -1,6 +1,6 @@
 /* === Basic Code === */
 
-*{
+* {
     box-sizing: border-box;
 }
 html {
@@ -18,8 +18,8 @@ body {
 }
 
 
-/* === Header Section === */
-.about-images {
+/* ==== Header Section ==== */
+.about-img {
     margin-left: -100px;
     right: -60px;
 }
@@ -37,32 +37,4 @@ body {
 }
 .hero-text {
     margin-top: 150px;
-}
-.typed-cursor {
-    font-size: 45px;
-    color: #ffffff;
-}
-.position-absolute {
-    font-weight: 700;
-}
-
-
-/* === Navigation Menu === */
-a {
-    color: #0bceaf;
-    text-decoration: none;
-    background-color: transparent;
-}
-a:hover {
-    color: #078571;
-    text-decoration: underline;
-}
-.navbar-light {
-    display: none;
-}
-.navbar-light .navbar-nav .nav-link {
-    padding: 25px 10px;
-    color: #343a40;
-    font-weight: 500;
-    outline: none;
 }
