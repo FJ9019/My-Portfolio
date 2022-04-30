@@ -41,3 +41,39 @@ body {
 .position-absolute {
     font-weight: 700;
 }
+
+
+/* ==== Navigation Menu ==== */
+a {
+    color: #0bceaf;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #078571;
+    text-decoration: underline;
+}
+.navbar-light {
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #0bceaf;
+}
+
+
+
+
+
+
+
+
+
+
+

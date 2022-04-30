@@ -1,3 +1,5 @@
+
+
 var typewriter = $('.typewriter');
 
   if(typewriter.length) {
@@ -22,3 +24,14 @@ var typewriter = $('.typewriter');
     initTypewriter();
 
   };
+
+
+  //Navbar on scrolling
+
+$(windows).scroll(function (){
+  if ($(this).scrollTop() > 200){
+    $('.navbar').fadeIn('slow').css('display', 'flex');
+  }else{
+    $('.navbar').fadeOut('slow').css('display', 'none');
+  }
+});
