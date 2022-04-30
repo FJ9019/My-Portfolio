@@ -68,11 +68,33 @@ a:hover {
 }
 
 
+/* ======== About Section ======= */
+.blue {
+    background-color: rgb(32, 125, 248);
+    color: #ffffff;
+}
+.blue:hover {
+    background-color: rgb(255, 255, 255);
+    color: #0f6eeb;
+    border-radius: 2px solid rgb(20, 109, 241);
+}
+.progress {
+    border-radius: 10px;
+}
 
+.progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+}
 
-
-
-
+.display-1 {
+    font-size: 160px;
+    font-weight: 1000;
+}
+.position-absolute {
+    font-weight: 700;
+}
 
 
 
