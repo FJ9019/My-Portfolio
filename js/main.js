@@ -42,6 +42,9 @@ $(".navbar-nav a").on('click', function (event) {
    }
 });
 
+// Testimonial Carousel
+
+
 
 // Portfolio isotope and filter
 var portfolioIsotope = $('.portfolio-container').isotope({
