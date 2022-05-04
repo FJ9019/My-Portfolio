@@ -10,6 +10,7 @@
         <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
 
         <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -610,37 +611,48 @@
             <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
          </div>
 
-         <div class="row justify-content-center">
-             <div class="col-lg-8">
-                 <div class="contact-form text-center">
-                     <div id="success"></div>
-                     <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                         <div class="form-row">
-                             <div class="control-group col-sm-6">
-                                 <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name"/>
-                                 <p class="help-block text-danger"></p>
-
-                             </div>
-
-                             <div class="control-group col-sm-6">
-                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email"/>
-                                <p class="help-block text-danger"></p>
-                                
-                         </div>
-                         
-            
-
-                         </div>
-
-                     </form>
-                 </div>
-             </div>
-         </div>
-    </div>
-</div>
-
-
-
+         <div class="container">
+            <div class="content">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic">Address</div>
+                  <div class="text-one">5, Delmas 40A</div>
+                  <div class="text-two">Port-au-Prince, Haiti</div>
+                </div>
+                <div class="phone details">
+                  <i class="fas fa-phone-alt"></i>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+509 43 24 18 43</div>
+                  <div class="text-two">+509 37 32 50 00</div>
+                </div>
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one">fenelus24@gmail.com</div>
+                  <div class="text-two">fenelus24@icloud.com</div>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Send me a message</div>
+                <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-box message-box">
+                  
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now" >
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
 
 
 <!--js code-->
