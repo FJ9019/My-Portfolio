@@ -26,6 +26,7 @@ body {
 .btn-white {
     background-color: #ffffff;
     border: 2px solid #ffffff;
+    margin: 20px;
 }
 .btn-blue {
     border: 2.4px solid #ffffff;
@@ -41,6 +42,26 @@ body {
 .position-absolute {
     font-weight: 700;
 }
+
+
+/* ========= Animated Text ======== */
+.animate1 {
+    position: relative;
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  .animate1 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0; 
+  }
+
+
 
 
 /* ==== Navigation Menu ==== */
@@ -81,13 +102,11 @@ a:hover {
 .progress {
     border-radius: 10px;
 }
-
 .progress .progress-bar {
     width: 0px;
     border-radius: 10px;
     transition: 2s;
 }
-
 .display-1 {
     font-size: 160px;
     font-weight: 1000;
@@ -95,6 +114,56 @@ a:hover {
 .position-absolute {
     font-weight: 700;
 }
+
+
+/* ============ My Skills ============ */
+.container {
+    margin-top: 20px;
+}
+  
+h2 {
+    color: #fff;
+}
+  
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #db3a34;
+}
+  
+.bar {
+    width: 90%;
+    height: 35px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    transition: all 2s linear;
+}
+  
+.bar-1,
+  .my-skills {
+    width: 80%;
+    margin: 10px auto 25px;
+}
+  
+.bar-inner {
+    width: 0;
+    height: 35px;
+    line-height: 35px;
+    background: #db3a34;
+    border-radius: 5px 0 0 5px;
+}
+  
+.bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 18px;
+}
+
+
+
+
 
 
 /* ======== Qualification ======== */
