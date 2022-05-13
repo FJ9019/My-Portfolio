@@ -75,7 +75,7 @@ a:hover {
     text-decoration: underline;
 }
 .navbar-light {
-    display: none;
+    display: 1px;
 }
 .navbar-light .navbar-nav .nav-link {
     padding: 25px 10px;
