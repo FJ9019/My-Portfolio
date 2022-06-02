@@ -20,8 +20,9 @@ body {
 
 /* ==== Header Section ==== */
 .about-img {
-  position: right;
-  right: -100px;
+  float: right;
+  margin-top: -350px;
+  width: 300px;
 }
 .btn {
     padding: 10px 25px;
